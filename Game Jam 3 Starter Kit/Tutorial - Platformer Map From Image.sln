@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3899CEC5-A27C-46A2-6C61-090A19E592F5}") = "Tutorial - Platformer Map From Image", "Assembly-CSharp.csproj", "{3F5B22D1-F213-5503-323C-DFF4F30F70AA}"
+EndProject
+Project("{3899CEC5-A27C-46A2-6C61-090A19E592F5}") = "Tutorial - Platformer Map From Image", "Assembly-CSharp-Editor.csproj", "{18449114-2F44-3D94-36F5-5BBBAA150185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F5B22D1-F213-5503-323C-DFF4F30F70AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5B22D1-F213-5503-323C-DFF4F30F70AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5B22D1-F213-5503-323C-DFF4F30F70AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5B22D1-F213-5503-323C-DFF4F30F70AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18449114-2F44-3D94-36F5-5BBBAA150185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18449114-2F44-3D94-36F5-5BBBAA150185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18449114-2F44-3D94-36F5-5BBBAA150185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18449114-2F44-3D94-36F5-5BBBAA150185}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
