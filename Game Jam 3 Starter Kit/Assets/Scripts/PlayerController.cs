@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         xdir = Input.GetAxis("Horizontal");
+        
     }
 
     // Update is called once per frame
@@ -74,7 +75,7 @@ public class PlayerController : MonoBehaviour
     void Idle()
     {
         //idle code goes here
-
+        
 
 
         //one of the conditions for exiting idle state

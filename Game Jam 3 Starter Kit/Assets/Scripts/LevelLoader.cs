@@ -15,7 +15,7 @@ public class LevelLoader : MonoBehaviour {
 
 	public ColorToPrefab[] colorToPrefab;
 
-
+	public int levelnumber;
 	// Use this for initialization
 	void Start () {
 		LoadMap();
@@ -38,6 +38,7 @@ public class LevelLoader : MonoBehaviour {
 
 	void LoadMap() {
 		EmptyMap();
+		levelFileName = "level-" + levelnumber + ".png";
 
 		// Read the image data from the file in StreamingAssets
 		string filePath = Application.dataPath + "/StreamingAssets/" + levelFileName;

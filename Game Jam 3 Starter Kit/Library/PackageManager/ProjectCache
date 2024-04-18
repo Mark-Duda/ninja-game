@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638490605390000000
+      ticks: 638490606010000000
     m_Hash: 773954551
   m_LockFileStatus:
     m_FilePath: /Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638490605390000000
+      ticks: 638490606010000000
     m_Hash: 1509971856
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
