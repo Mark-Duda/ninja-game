@@ -212,7 +212,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &4980524355012310261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +226,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  Camera: {fileID: 0}
   Wspeed: 5
   Sspeed: 10
+  StartOfState: 0
+  rb: {fileID: 0}
+  jumpForce: 10
+  raycastLength: 0.1
+  isGrounded: 1

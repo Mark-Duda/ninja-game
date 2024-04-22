@@ -133,7 +133,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 102,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/jkern8213/Documents/Git",
+      "PayloadDebugContentSnippet": "/Users/mduda5642/Documents/Git",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -159,7 +159,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 37674,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/jkern8213/Doc",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/mduda5642/Doc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -2265,7 +2265,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 46243,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/jkern8213/Documents/Git",
+      "PayloadDebugContentSnippet": "/Users/mduda5642/Documents/Git",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -2277,7 +2277,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 46395,
-      "PayloadLength": 31861,
+      "PayloadLength": 31890,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -2289,7 +2289,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 78342,
+      "PayloadOffset": 78371,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -2520,6 +2520,7 @@
         "Assets/Scripts/ladder.cs",
         "Assets/Scripts/LevelLoader.cs",
         "Assets/Scripts/PlayerController.cs",
+        "Assets/Scripts/WallGrab.cs",
         "/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp"
@@ -2574,7 +2575,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 78437,
+      "PayloadOffset": 78466,
       "PayloadLength": 7773,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -2846,7 +2847,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies\" -s=\"/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies\" -s=\"/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -2982,7 +2983,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/getconf"
+      "File": "/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -3032,6 +3033,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/200b0aE.dag.json",
-  "PayloadsFile": "/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/Bee/200b0aE.dag.payloads",
+  "PayloadsFile": "/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/Bee/200b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

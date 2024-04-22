@@ -337,6 +337,7 @@
 "Assets/Scripts/ladder.cs"
 "Assets/Scripts/LevelLoader.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/WallGrab.cs"
 -langversion:9.0
 
 /deterministic

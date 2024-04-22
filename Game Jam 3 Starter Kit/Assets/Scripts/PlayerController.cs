@@ -1,19 +1,20 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Net;
+ using UnityEditorInternal;
+ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     
     public GameObject player;
-    public GameObject Camera = GameObject.Find("Main Camera");
     public float Wspeed = 5f;
     public float Sspeed = 10f;
-    private bool StartOfState; 
-    private Rigidbody2D rb;
+    public bool StartOfState; 
+    public Rigidbody2D rb;
     public float jumpForce = 10f;
-    public float raycastLength = 0.1f;
-    private bool isGrounded;
+    public float raycastLength = .1f;
+    public bool isGrounded;
    
     enum States
     {
@@ -29,80 +30,131 @@ public class PlayerController : MonoBehaviour
     States state;
 
     float xdir;
+    private Collider2D playerCollider;
 
     // Start is called before the first frame update
     void Start()
     {
+        
+
+        player = GameObject.FindWithTag("Player");
         rb = player.GetComponent<Rigidbody2D>();
-        player = gameObject;
         SwitchState(States.idle);
-        player.transform.SetParent(Camera.transform);
-        isGrounded = IsGrounded();
+        
+        playerCollider = player.GetComponent<Collider2D>();
+
 
     }
-    bool IsGrounded()
-    {
-        // Cast a ray downwards to check if the player is grounded
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, raycastLength);
 
-        // If the raycast hits something with the "Ground" tag, the player is grounded
-        return hit.collider != null && hit.collider.CompareTag("Ground");
+    IEnumerator delayforfun()
+    {
+        yield return new WaitForSeconds(.1f);
+        Debug.Log("pain");
+        player = GameObject.FindWithTag("Player");
+        rb = player.GetComponent<Rigidbody2D>();
+        SwitchState(States.idle);
+        
+        playerCollider = player.GetComponent<Collider2D>();
     }
    
     
-    // Update is called once per frame
+    // Update is called once per frames
     void Update()
     {
-        xdir = Input.GetAxis("Horizontal");
         
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        Vector2 rayStartLeft = new Vector2(playerCollider.bounds.min.x-.001f, playerCollider.bounds.center.y-.001f);
+        Vector2 rayStartRight = new Vector2(playerCollider.bounds.max.x+.001f, playerCollider.bounds.center.y-.001f);
+
+        Debug.DrawLine(rayStartLeft, rayStartLeft + Vector2.left * raycastLength, Color.blue);
+        Debug.DrawLine(rayStartRight, rayStartRight + Vector2.right * raycastLength, Color.red);
+        // Cast rays horizontally to check if the player is grounded on each side
+        RaycastHit2D hitLeft = Physics2D.Raycast(rayStartLeft, Vector2.left, raycastLength);
+        RaycastHit2D hitRight = Physics2D.Raycast(rayStartRight, Vector2.right, raycastLength);
+        Vector2 rayStartl = new Vector2(playerCollider.bounds.min.x, playerCollider.bounds.min.y-.001f);
+        Vector2 rayStartr = new Vector2(playerCollider.bounds.max.x, playerCollider.bounds.min.y-.001f );
+        
+        //Cast a ray downwards to check if the player is grounded
+        RaycastHit2D hitr = Physics2D.Raycast(rayStartr, Vector2.down, raycastLength);
+        RaycastHit2D hitl = Physics2D.Raycast(rayStartl, Vector2.down, raycastLength);
+
+            // If the raycast hits something with the "Ground" tag, the player is grounded
+       if (hitl.collider != null && hitl.collider.CompareTag("Ground"))
         {
-            Jump();
-            SwitchState(States.jump);
+           isGrounded = true;
         }
+       if(hitr.collider != null && hitr.collider.CompareTag("Ground"))
+       {
+           isGrounded = true;
+       }
+       else
+       {
+           isGrounded = false;
+       }
 
-        if (xdir != 0&& !Input.GetKey(KeyCode.LeftShift))
-        {
-            SwitchState(States.walk);
-        }
-        if (xdir != 0 && Input.GetKey(KeyCode.LeftShift))
-        {
-            SwitchState(States.sprint);
-        }
-        switch (state)
-        {
-            case States.idle:
-                print("idle state");
-                Idle();
-                break;
+       if (isGrounded == false && hitLeft.collider != null && hitLeft.collider.CompareTag("Ground"))
+       {
+           
+           SwitchState(States.wallgrab);
+       }
+       if (isGrounded == false && hitRight.collider != null && hitRight.collider.CompareTag("Ground"))
+       {
+           
+           SwitchState(States.wallgrab);
+       }
+      
+       xdir = Input.GetAxis("Horizontal"); 
+        
+       if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+       {
+           Debug.Log("jump");
+           Jump();
+           SwitchState(States.jump);
+       }
 
-            case States.walk:
-                print("walk state");
-                Walk();
-                break;
+       if (xdir != 0&& !Input.GetKey(KeyCode.LeftShift))
+       {
+           SwitchState(States.walk);
+       }
+       if (xdir != 0 && Input.GetKey(KeyCode.LeftShift))
+       {
+           Debug.Log("sprint");
+           SwitchState(States.sprint);
+       }
+       switch (state)
+       {
+           case States.idle:
+               //print("idle state");
+               Idle();
+               break;
 
-            case States.sprint:
-                print("sprint state");
-                Sprint();
-                break;
+           case States.walk:
+               //print("walk state");
+               Walk();
+               break;
 
-            case States.jump:
-                print("jump state");
-                break;
+           case States.sprint:
+               print("sprint state");
+               Sprint();
+               break;
 
-            case States.fall:
-                print("fall state");
-                break;
+           case States.jump:
+               //print("jump state");
+               break;
 
-            case States.wallgrab:
-                print("wallgrab state");
-                break;
+           case States.fall:
+               print("fall state");
+               break;
 
-            case States.slide:
-                print("slide state");
-                break;
+           case States.wallgrab:
+               print("wallgrab state");
+               Wallgrab();
+               break;
 
-        }
+           case States.slide:
+               print("slide state");
+               break;
+
+       }
     }
 
     // Update is called once per frame
@@ -157,4 +209,18 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
+
+    void Wallgrab()
+    {
+        rb.gravityScale = .3f;
+        if (Input.GetKeyDown(KeyCode.W)&&Input.GetKeyDown(KeyCode.A))
+        {
+            rb.velocity = new Vector2(rb.velocity.x + .3f * jumpForce, jumpForce * .7f);
+        }
+        if (Input.GetKeyDown(KeyCode.W)&&Input.GetKeyDown(KeyCode.D))
+        {
+            rb.velocity = new Vector2(rb.velocity.x -.3f * jumpForce, jumpForce * .7f);
+        }
+    }
+    
 }

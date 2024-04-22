@@ -45,6 +45,7 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/WallGrab.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/LevelLoader.cs" />
@@ -686,7 +687,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
