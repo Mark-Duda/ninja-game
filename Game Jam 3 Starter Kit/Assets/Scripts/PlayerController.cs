@@ -15,7 +15,9 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10f;
     public float raycastLength = .1f;
     public bool isGrounded;
-   
+    public Animator m_Animator;
+    public Vector3 previousPosition;
+   public bool ismoving;
     enum States
     {
         idle,
@@ -30,12 +32,14 @@ public class PlayerController : MonoBehaviour
     States state;
 
     float xdir;
-    private Collider2D playerCollider;
+    public Collider2D playerCollider;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(delayforfun());
+        previousPosition = playerCollider.bounds.center;
+
 
         player = GameObject.FindWithTag("Player");
         rb = player.GetComponent<Rigidbody2D>();
@@ -46,10 +50,13 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public bool IsMovingDownward;
+    
     IEnumerator delayforfun()
     {
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(.2f);
         Debug.Log("pain");
+        previousPosition = playerCollider.bounds.center;
         player = GameObject.FindWithTag("Player");
         rb = player.GetComponent<Rigidbody2D>();
         SwitchState(States.idle);
@@ -61,6 +68,46 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frames
     void Update()
     {
+        Vector3 currentPosition = playerCollider.bounds.center;
+        if (currentPosition != previousPosition)
+        {
+            
+            ismoving = true;
+            
+        }
+        else
+        {
+            ismoving = false;
+        }
+        previousPosition = currentPosition;
+        if (!ismoving&& isGrounded)
+        {
+            Debug.Log("idle");
+            SwitchState(States.idle); 
+        }
+            
+        if (IsMovingDownward)
+        {
+            Debug.Log("fall");
+            SwitchState(States.fall);
+        }
+        
+    
+        // Get the vertical velocity of the player's Rigidbody2D component
+        float verticalVelocity = rb.velocity.y;
+
+        // Set a threshold value to determine downward movement
+        float downwardThreshold = -0.3f; // Adjust this value as needed
+
+        // Check if the vertical velocity is greater than the downward threshold
+        if (verticalVelocity < downwardThreshold && verticalVelocity < 0f)
+        {
+            IsMovingDownward = true; // Player is moving downward
+        }
+        else
+        {
+            IsMovingDownward = false;
+        }
         
         Vector2 rayStartLeft = new Vector2(playerCollider.bounds.min.x-.001f, playerCollider.bounds.center.y-.001f);
         Vector2 rayStartRight = new Vector2(playerCollider.bounds.max.x+.001f, playerCollider.bounds.center.y-.001f);

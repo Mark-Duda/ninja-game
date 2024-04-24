@@ -5,17 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92cbe13f-59e5-4524-8fd1-2cf44a08b03d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Jam 3 Starter Kit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Jam 3 Starter Kit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0f/0f75748bc6d7b5537b626000f6b02293" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/13/131bd46bf5f4c4e7e38d4cda2d0d292f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/15/152bd827a906476c90fe0e79325bbd51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/23/239b24799e3fedc31d599d9e57cf51ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2b/2be5c34a3546e11e98931f4544d5f2c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2b/2bf2d3a12718ddb9af103ad2a4f7a629" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/37/37982f4c1fa7ca4422ae85e396a8b3d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/39/39b4b3ccc915aa01cbc916251bed1420" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3c/3c56daa05e2eba50e4aefb697fb01b85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/456e10ee61addca71231ef984ec53899" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5a/5ae31c91c613294e83d92dd1efde008e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5fa1a25c3f9ddc4c765029f6f305433c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6a/6a295920519e4f2d82a1d6e0a017eadb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/7015aecff0fa631b9f4eaa92e12cec6f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/70709e3c451f44cc7d51877d19de2098" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/82/8222f7ab64b43ba17a583f1c38699d84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9cd1bea05a953ac48c06a68fd1082f44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9f/9f7067304989386f054e94c7e272a4d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a0126b11ca2b2ace9a0fe44d132c4e87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b0/b0eb35194dd3234219f13d8f1ad6fcc5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c0/c0253e959f739b1e77fecc1c98a871ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/ce6b519051057a1b0af7b89996eee8a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ef/efb9aea12945bf3c74a60f4ca903817f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-3019d12859c3449d69fd21d52c46845e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-b704989423e4e478fa8f5d15cc4cafc7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-d6dba860a1d294e5e948abe4ed0f65af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/workerlic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,26 +76,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/mduda5642/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/mduda5642/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/mduda5642/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/mduda5642/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/mduda5642/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/mduda5642/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity" />
@@ -104,6 +144,7 @@
       <updated>1713463911147</updated>
       <workItem from="1713463920185" duration="1345000" />
       <workItem from="1713805943467" duration="5355000" />
+      <workItem from="1713978655766" duration="2554000" />
     </task>
     <servers />
   </component>
