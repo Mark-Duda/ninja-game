@@ -1,3 +1,4 @@
+ using System;
  using System.Collections;
          using System.Collections.Generic;
          using System.Net;
@@ -19,6 +20,7 @@
      public Animator m_Animator;
      public Vector3 previousPosition;
      public bool ismoving;
+     public bool candash;
 
      enum States
      {
@@ -28,7 +30,9 @@
          jump,
          fall,
          wallgrab,
-         slide
+         slide,
+         dash,
+         crouch
      }
 
      States state;
@@ -48,6 +52,7 @@
          SwitchState(States.idle);
 
          playerCollider = player.GetComponent<Collider2D>();
+         candash = true;
 
 
      }
@@ -66,11 +71,37 @@
          playerCollider = player.GetComponent<Collider2D>();
      }
 
+     IEnumerator dash()
+     {
+         candash = false;
+         SwitchState(States.dash);
+         float startTime = Time.time;
+         while (Time.time < startTime + .2f)
+         {
+             transform.position += new Vector3(Sspeed * Time.deltaTime*playerCollider.transform.localScale.x*2, 0f, 0f);
+             yield return null;
+         }
+         SwitchState(States.idle);
+         yield return new WaitForSeconds(1f);
+         candash = true;
+
+     }
+     
+
 
      // Update is called once per frames
      void Update()
 
      {
+         if (Input.GetKeyDown(KeyCode.LeftShift)! & state != States.wallgrab)
+         {
+             SwitchState(States.crouch);
+         }
+         
+         if (Input.GetKeyDown(KeyCode.Q)&&candash)
+         {
+             StartCoroutine(dash());
+         }
 
          Vector3 currentPosition = playerCollider.bounds.center;
          if (currentPosition != previousPosition)
@@ -94,21 +125,21 @@
          switch (state)
          {
              case States.idle:
-                 print("idle state");
+                // print("idle state");
                  Idle();
                  break;
 
              case States.walk:
-                 print("walk state");
+                // print("walk state");
                  break;
 
              case States.sprint:
-                 print("sprint state");
+                // print("sprint state");
                  Sprint();
                  break;
 
              case States.jump:
-                 //print("jump state");
+                 print("jump state");
                  Jump();
                  break;
 
@@ -118,12 +149,19 @@
                  break;
 
              case States.wallgrab:
-                 print("wallgrab state");
+              //   print("wallgrab state");
                  Wallgrab();
                  break;
 
              case States.slide:
                  print("slide state");
+                 break;
+             case States.dash:
+                 print("dash state");
+                 break;
+             case States.crouch:
+                 //print("crouch state");
+                 crouch();
                  break;
 
          }
@@ -137,8 +175,27 @@
 
      }
 
+     void crouch()
+     {
+         Debug.Log("un");
+         Vector3 newScale = playerCollider.transform.localScale;
+         newScale.y = .6f;
+
+// Assign the new scale to the GameObject
+         playerCollider.transform.localScale = newScale;
+         if (!Input.GetKey(KeyCode.LeftShift))
+         {
+             SwitchState(States.idle);
+         }
+     }
+
      void Idle()
      {
+         Vector3 newScale = playerCollider.transform.localScale;
+         newScale.y = 1f;
+
+// Assign the new scale to the GameObject
+         playerCollider.transform.localScale = newScale;
          xdir = Input.GetAxis("Horizontal");
 
          if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
@@ -206,6 +263,12 @@
 
      void Fall()
      {
+         Vector3 newvScale = playerCollider.transform.localScale;
+         newvScale.y = 1f;
+
+// Assign the new scale to the GameObject
+         playerCollider.transform.localScale = newvScale;
+         rb.gravityScale = 1;
          Vector2 rayStartLeft =
              new Vector2(playerCollider.bounds.min.x - .001f, playerCollider.bounds.center.y - .001f);
          Vector2 rayStartRight =
@@ -253,11 +316,22 @@
          if (Input.GetKey(KeyCode.D))
          {
              transform.position += new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = 1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
+
 
          }
          else if (Input.GetKey(KeyCode.A))
          {
              transform.position -= new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = -1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
          }
 
          if (isGrounded)
@@ -271,14 +345,29 @@
 
      void Sprint()
      {
+         Vector3 newvScale = playerCollider.transform.localScale;
+         newvScale.y = 1f;
+
+// Assign the new scale to the GameObject
+         playerCollider.transform.localScale = newvScale;
          if (Input.GetKey(KeyCode.D))
          {
              transform.position += new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = 1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
 
          }
          else if (Input.GetKey(KeyCode.A))
          {
              transform.position -= new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = -1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
          }
          else
          {
@@ -318,6 +407,12 @@
 
      void Jump()
      {
+         Vector3 newvScale = playerCollider.transform.localScale;
+         newvScale.y = 1f;
+
+// Assign the new scale to the GameObject
+         playerCollider.transform.localScale = newvScale;
+         rb.gravityScale = 1;
 
          Vector2 rayStartLeft =
              new Vector2(playerCollider.bounds.min.x - .001f, playerCollider.bounds.center.y - .001f);
@@ -338,12 +433,22 @@
          if (Input.GetKey(KeyCode.D))
          {
              transform.position += new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = 1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
 
          }
 
          if (Input.GetKey(KeyCode.A))
          {
              transform.position -= new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = -1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
          }
 
          float verticalVelocity = rb.velocity.y;
@@ -374,13 +479,36 @@
      }
 
      void Wallgrab()
-     {
+     {Vector3 newvScale = playerCollider.transform.localScale;
+         newvScale.y = 1f;
+
+// Assign the new scale to the GameObject
+         playerCollider.transform.localScale = newvScale;
          rb.gravityScale = .3f;
          Vector2 rayStartLeft =
              new Vector2(playerCollider.bounds.min.x - .001f, playerCollider.bounds.center.y - .001f);
          Vector2 rayStartRight =
              new Vector2(playerCollider.bounds.max.x + .001f, playerCollider.bounds.center.y - .001f);
 
+         if (Input.GetKey(KeyCode.D))
+         {
+             transform.position += new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = 1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
+
+         }
+         else if (Input.GetKey(KeyCode.A))
+         {
+             transform.position -= new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
+             Vector3 newScale = playerCollider.transform.localScale;
+             newScale.x = -1;
+
+// Assign the new scale to the GameObject
+             playerCollider.transform.localScale = newScale;
+         }
          Debug.DrawLine(rayStartLeft, rayStartLeft + Vector2.left * raycastLength, Color.blue);
          Debug.DrawLine(rayStartRight, rayStartRight + Vector2.right * raycastLength, Color.red);
          // Cast rays horizontally to check if the player is grounded on each side
@@ -389,6 +517,7 @@
          if (Input.GetKeyDown(KeyCode.W) && hitRight.collider != null && hitRight.collider.CompareTag("Ground"))
          {
              rb.velocity = new Vector2(rb.velocity.x - .3f * jumpForce, jumpForce * .7f);
+             Debug.LogWarning("SUFFER");
              rb.gravityScale = 1f;
              SwitchState(States.jump);
          }
@@ -396,9 +525,16 @@
          if (Input.GetKeyDown(KeyCode.W) && hitLeft.collider != null && hitLeft.collider.CompareTag("Ground"))
          {
              rb.velocity = new Vector2(rb.velocity.x + .3f * jumpForce, jumpForce * .7f);
+             Debug.Log("SUFFER");
              rb.gravityScale = 1f;
              SwitchState(States.jump);
          }
+
+         if (hitRight.collider == null && hitLeft.collider == null)
+         {
+             SwitchState(States.fall);
+         }
+         
 
          Vector2 rayStartl = new Vector2(playerCollider.bounds.min.x, playerCollider.bounds.min.y - .001f);
          Vector2 rayStartr = new Vector2(playerCollider.bounds.max.x, playerCollider.bounds.min.y - .001f);
