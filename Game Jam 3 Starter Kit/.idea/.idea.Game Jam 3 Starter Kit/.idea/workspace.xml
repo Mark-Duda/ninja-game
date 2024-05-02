@@ -5,7 +5,239 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92cbe13f-59e5-4524-8fd1-2cf44a08b03d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-bdf12f915c0c24e14ae199b88c0106d5" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/FSTimeGet-bdf12f915c0c24e14ae199b88c0106d5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Jam 3 Starter Kit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Jam 3 Starter Kit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ArtWork/Animation/AnimationTester.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtWork/Animation/AnimationTester.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ArtWork/Animation/Fall.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtWork/Animation/Fall.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ArtWork/Animation/GameObject.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtWork/Animation/GameObject.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ArtWork/Animation/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtWork/Animation/Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ArtWork/Animation/LadderClimb.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtWork/Animation/LadderClimb.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ArtWork/Animation/Sprint.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ArtWork/Animation/Sprint.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Ninja.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Ninja.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_SCENE_LOADED_FROM_IMAGE_.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_SCENE_LOADED_FROM_IMAGE_.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3d/3d1f5aa45be0ececf432d9620ca733f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3f/3fc838f8bf40301c2b1386919d4e171c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/84/84998abcd4ee9a40eeedb6200cb4c917" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a6/a6e2d3f5149db1b862d00bca1cc58f90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b7/b724f15818c28f530decd5e6eb75e299" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fa/fa3c7a4e363620c8c3f6f0b1d0c2feb1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/200b0aE.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/200b0aE.dag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/200b0aE.dag_fsmtime" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/200b0aE.dag_fsmtime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/BurstCacheManifest.cm" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/BurstCacheManifest.cm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a110ffe6b760e4b56cb86ae44bc7857d.bhc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot27kc4607.y1g/lib_burst_generated_part_a185c62eba2497c95197140e5282b27a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot27kc4607.y1g/lib_burst_generated_part_a185c62eba2497c95197140e5282b27a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot27kc4607.y1g/lib_burst_generated_part_c59a2829ea46bcbf842acae64e703683.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot27kc4607.y1g/lib_burst_generated_part_c59a2829ea46bcbf842acae64e703683.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_271f53e56a7426054e63d32f3a810d5a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_271f53e56a7426054e63d32f3a810d5a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_410567ec19c7eff453153e8bb5d5726a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_410567ec19c7eff453153e8bb5d5726a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_4b7cdbc23fcab02064ba433f7a96c0c8.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_4b7cdbc23fcab02064ba433f7a96c0c8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_5bb17a4310b1fa95d6d095a12b47e08e.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_5bb17a4310b1fa95d6d095a12b47e08e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_604d796a9833a704566cc740a72107ca.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_604d796a9833a704566cc740a72107ca.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_61e096a647d5ec6acb8d1022346c27fb.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_61e096a647d5ec6acb8d1022346c27fb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_92b00a86b19d216c8c45024c58ef46a0.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_92b00a86b19d216c8c45024c58ef46a0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_9a66cf205141e27a140b215af6c3f4d9.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_9a66cf205141e27a140b215af6c3f4d9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_d798bdaab440bd8c559476fb6874b13e.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_d798bdaab440bd8c559476fb6874b13e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_e30712d6519745a172cb59844c5522c6.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2cd6tblc.r2q/lib_burst_generated_part_e30712d6519745a172cb59844c5522c6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_02c339d986f05b6dfa1d96ab3677d293.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_02c339d986f05b6dfa1d96ab3677d293.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_053cdab268d86e7aa0aa081d7c85e0eb.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_053cdab268d86e7aa0aa081d7c85e0eb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_05c5fea4d34568ee5edd4825a544542e.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_05c5fea4d34568ee5edd4825a544542e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_0abb28cca03bb5c54a93b39c6be28169.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_0abb28cca03bb5c54a93b39c6be28169.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_0cd19a5fce6e30b85645c47e1669eb02.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_0cd19a5fce6e30b85645c47e1669eb02.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_0e9b04385880bf494c03009166ae81c1.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_0e9b04385880bf494c03009166ae81c1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_233180522d2f5149a6f34e240be3c17a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_233180522d2f5149a6f34e240be3c17a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_240d088b87174ab6281de7206ceecee7.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_240d088b87174ab6281de7206ceecee7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_2de8ddd22a8f6d0ef2b8eff2887c8633.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_2de8ddd22a8f6d0ef2b8eff2887c8633.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_2eb857af279ae9a5d1bf8f7dbc5db440.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_2eb857af279ae9a5d1bf8f7dbc5db440.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_301b5fee6ed3ceec14ef1172e5f55923.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_301b5fee6ed3ceec14ef1172e5f55923.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_3076f4c7364d9ebcd00e6bf16f46bfa1.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_3076f4c7364d9ebcd00e6bf16f46bfa1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_42e17513ae5868d852cab034d3883b3f.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_42e17513ae5868d852cab034d3883b3f.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_432a75fab10162bd17886c134f44d4bb.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_432a75fab10162bd17886c134f44d4bb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_48c9dc79efe92efebeea9bdda6ff5768.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_48c9dc79efe92efebeea9bdda6ff5768.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_494c7fbf602a6a7eb14fa946b73b8e7a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_494c7fbf602a6a7eb14fa946b73b8e7a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_56406dcfe2a5d4dccb8e6dbafae98dd9.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_56406dcfe2a5d4dccb8e6dbafae98dd9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_58ac227ac14fbede967dc89b99f12766.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_58ac227ac14fbede967dc89b99f12766.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_600d8348af754a677992c9ab11a02056.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_600d8348af754a677992c9ab11a02056.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_695035de84a6c938d76b2d5a542459e2.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_695035de84a6c938d76b2d5a542459e2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_6ee2e97802c074b9e5f1d7ffea4f2084.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_6ee2e97802c074b9e5f1d7ffea4f2084.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_852e9911b6f7234136fa22e6c566a701.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_852e9911b6f7234136fa22e6c566a701.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_8c703e8c2505e295a103d76dea16df43.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_8c703e8c2505e295a103d76dea16df43.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_8ea40515283c22db9c9580616b6483bd.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_8ea40515283c22db9c9580616b6483bd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_952f1e3d042caa7e801b607f42221059.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_952f1e3d042caa7e801b607f42221059.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_9ae5cd7b9b78036ce6a237afc872882f.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_9ae5cd7b9b78036ce6a237afc872882f.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_a70fbc8cbb64e5f8db53d6f07a8e4bbe.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_a70fbc8cbb64e5f8db53d6f07a8e4bbe.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_ad3699e992ad3caab6e03ed442dc1e91.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_ad3699e992ad3caab6e03ed442dc1e91.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_b4029c39bb5da310eede85aa3cf2dce8.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_b4029c39bb5da310eede85aa3cf2dce8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_b4b6044b4438966d5d1974c91fbe9992.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_b4b6044b4438966d5d1974c91fbe9992.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_c536024319e748be9f5e73059761ff84.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_c536024319e748be9f5e73059761ff84.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_c5e67784c86f059c539830502812ad19.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_c5e67784c86f059c539830502812ad19.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_c95600f9de518a085737386509d9b8d4.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_c95600f9de518a085737386509d9b8d4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_ccc5f9dabfd031c54db57eb2d49e7441.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_ccc5f9dabfd031c54db57eb2d49e7441.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_d40b89f31fe9ad4e980a7e29e801ac4c.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_d40b89f31fe9ad4e980a7e29e801ac4c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_e256ee98e7ae72608aa5eddede910370.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_e256ee98e7ae72608aa5eddede910370.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_e4beef104b4efde37dc61fb3b586147b.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_e4beef104b4efde37dc61fb3b586147b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_e59d509ebc82e310a8a65f4e56b9f4eb.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_e59d509ebc82e310a8a65f4e56b9f4eb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_f6b4868c3e9ab1cc4af920af1a179ae7.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_f6b4868c3e9ab1cc4af920af1a179ae7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_fb505ad7275baf2b23bc1be4b6236344.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_fb505ad7275baf2b23bc1be4b6236344.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_fb7559aa2f89f2ef8eccb60d658f8ea5.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot2w85lhlt.5wl/lib_burst_generated_part_fb7559aa2f89f2ef8eccb60d658f8ea5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot322ymkgp.zef/lib_burst_generated_part_74fd54a175a6821acce1a4873415130a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot322ymkgp.zef/lib_burst_generated_part_74fd54a175a6821acce1a4873415130a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot322ymkgp.zef/lib_burst_generated_part_d633ead243343fad75d38126da74220a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot322ymkgp.zef/lib_burst_generated_part_d633ead243343fad75d38126da74220a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_122fae680333e8e2ba58f80110a0a78c.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_122fae680333e8e2ba58f80110a0a78c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_2b06055de97035295dc032db19a3a735.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_2b06055de97035295dc032db19a3a735.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_381a3a85c237f2f5ef34ba69d4bda072.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_381a3a85c237f2f5ef34ba69d4bda072.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_6d933222c5b0c0c915d062861958d408.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_6d933222c5b0c0c915d062861958d408.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_7194d9a68a20c1c6a01d3a365d4f21b9.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_7194d9a68a20c1c6a01d3a365d4f21b9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_9425db96a9fb33479746c6501570455e.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_9425db96a9fb33479746c6501570455e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_a10c29fb1a626a4dab6bf90980926746.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_a10c29fb1a626a4dab6bf90980926746.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_aece0ca012db7ae9f82cc8b3c490870a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_aece0ca012db7ae9f82cc8b3c490870a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_b0197e8b2118e6410ef3f798b24a1e6e.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_b0197e8b2118e6410ef3f798b24a1e6e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_f9554e48e09171c93d417c182c09c36b.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot5e0hsq2b.wm0/lib_burst_generated_part_f9554e48e09171c93d417c182c09c36b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_164a9957f2c75e5d4b481d1ceff90393.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_164a9957f2c75e5d4b481d1ceff90393.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_2434a4c10d01dbab5e7438b2b580d1d1.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_2434a4c10d01dbab5e7438b2b580d1d1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_276b96e48754d7f5ba865bd7f5b37c11.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_276b96e48754d7f5ba865bd7f5b37c11.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_2ef0a503423574beae197ba4b01ed0be.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_2ef0a503423574beae197ba4b01ed0be.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_428d454056b9288c93f4435d6e6f7fda.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_428d454056b9288c93f4435d6e6f7fda.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_478bf3abafa12cba2083fb45bca79b9c.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_478bf3abafa12cba2083fb45bca79b9c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_4a1dc7df3f09b836e86a41d0d8fb4229.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_4a1dc7df3f09b836e86a41d0d8fb4229.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_68a8ea65a4f1ea752d1138be3be73a9a.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_68a8ea65a4f1ea752d1138be3be73a9a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_82b0ba09e7cb740f2e20482d3814830b.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_82b0ba09e7cb740f2e20482d3814830b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_93df17b7366cd622dfa5ea2d3c75cf0b.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_93df17b7366cd622dfa5ea2d3c75cf0b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_959783104064e8c81fba5d33d94ead01.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_959783104064e8c81fba5d33d94ead01.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_b78f808503c8b5fe97a83e833bd5871d.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_b78f808503c8b5fe97a83e833bd5871d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_baf840f8150b604b0fd300ceb19dd50e.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_baf840f8150b604b0fd300ceb19dd50e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_ca60ab232d19a9f4380a530fa0d222cf.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_ca60ab232d19a9f4380a530fa0d222cf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_cf20d690c33ab495d44c548cd6a31428.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_cf20d690c33ab495d44c548cd6a31428.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_f7daf29273ab2f86d86c27c3a1d6eeb5.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot7o2keb5c.gfu/lib_burst_generated_part_f7daf29273ab2f86d86c27c3a1d6eeb5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotje4vfmds.0e9/lib_burst_generated_part_392b7b32333743504166fb9ca0945a4b.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotje4vfmds.0e9/lib_burst_generated_part_392b7b32333743504166fb9ca0945a4b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotje4vfmds.0e9/lib_burst_generated_part_e6ab3f957f2022d40db671289fd01a1e.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotje4vfmds.0e9/lib_burst_generated_part_e6ab3f957f2022d40db671289fd01a1e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotmhwhybmu.fth/lib_burst_generated_part_5d7b3fa868fd54b3e02f541cac60e305.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotmhwhybmu.fth/lib_burst_generated_part_5d7b3fa868fd54b3e02f541cac60e305.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotmhwhybmu.fth/lib_burst_generated_part_ecf936c407e8d63089e9f1f7f82bdbd1.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotmhwhybmu.fth/lib_burst_generated_part_ecf936c407e8d63089e9f1f7f82bdbd1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotqgz5mx94.4xa/lib_burst_generated_part_89425a97f3f500fa810ad03f0c382542.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotqgz5mx94.4xa/lib_burst_generated_part_89425a97f3f500fa810ad03f0c382542.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotqgz5mx94.4xa/lib_burst_generated_part_da352d92cabf024fc9986011d52a4537.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotqgz5mx94.4xa/lib_burst_generated_part_da352d92cabf024fc9986011d52a4537.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotzzj0f7d5.pls/lib_burst_generated_part_0ab81894f1379e33710da088cf07e282.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotzzj0f7d5.pls/lib_burst_generated_part_0ab81894f1379e33710da088cf07e282.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotzzj0f7d5.pls/lib_burst_generated_part_e1728c13eaa7b923b4f70050453c05bc.gbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotzzj0f7d5.pls/lib_burst_generated_part_e1728c13eaa7b923b4f70050453c05bc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-2b0c8e18468b74e4ba1093fd1b325a22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/workerlic" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/workerlic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,27 +258,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/mduda5642/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/mduda5642/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
-      &quot;/Users/mduda5642/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/jkern8213/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
+      "/Users/jkern8213/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
+      "/Users/jkern8213/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization" />
@@ -63,7 +303,35 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;$PROJECT_DIR$&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -95,6 +363,7 @@
       <workItem from="1713463920185" duration="1345000" />
       <workItem from="1713805943467" duration="5355000" />
       <workItem from="1713978655766" duration="3400000" />
+      <workItem from="1714672699172" duration="2364000" />
     </task>
     <servers />
   </component>
