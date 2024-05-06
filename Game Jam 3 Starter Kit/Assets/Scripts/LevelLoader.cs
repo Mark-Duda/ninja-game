@@ -36,7 +36,7 @@ public class LevelLoader : MonoBehaviour {
 		// The player will progess through the levels alphabetically
 	}
 
-	void LoadMap() {
+	public void LoadMap() {
 		EmptyMap();
 		levelFileName = "level-" + levelnumber + ".png";
 
