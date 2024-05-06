@@ -325,7 +325,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.7f1/PlaybackEngines/VisionOSPlayer/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -715,100 +715,100 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Path.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.005">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.005.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
