@@ -18,7 +18,7 @@ public class coincollect : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Coin"))
         {
-            CollectCoin(3);
+            CollectCoin(1);
             Destroy(other.gameObject);
         }
     }
