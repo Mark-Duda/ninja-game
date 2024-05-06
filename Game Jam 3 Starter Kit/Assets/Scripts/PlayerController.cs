@@ -75,12 +75,13 @@
 
      IEnumerator dash()
      {
+         animate.Play("Dash");
          candash = false;
          SwitchState(States.dash);
          float startTime = Time.time;
          while (Time.time < startTime + .2f)
          {
-             transform.position += new Vector3(Sspeed * Time.deltaTime*playerCollider.transform.localScale.x*2, 0f, 0f);
+             transform.position += new Vector3(Sspeed * Time.deltaTime*playerCollider.transform.localScale.x, 0f, 0f);
              yield return null;
          }
          SwitchState(States.idle);
@@ -181,7 +182,7 @@
      {
          Debug.Log("un");
          Vector3 newScale = playerCollider.transform.localScale;
-         newScale.y = .6f;
+         newScale.y = 2.1f;
          animate.Play("Crouch");
 
 // Assign the new scale to the GameObject
@@ -259,17 +260,13 @@
              rb.velocity = new Vector2(rb.velocity.x, jumpForce);
              SwitchState(States.jump);
          }
-
-
-
-
      }
 
      void Fall()
      {
          animate.Play("Fall");
          Vector3 newvScale = playerCollider.transform.localScale;
-         newvScale.y = 1f;
+         newvScale.y = 2.4f;
 
 // Assign the new scale to the GameObject
          playerCollider.transform.localScale = newvScale;
@@ -415,7 +412,7 @@
      {
          animate.Play("Jump");
          Vector3 newvScale = playerCollider.transform.localScale;
-         newvScale.y = 1f;
+         newvScale.y = 2.4f;
 
 // Assign the new scale to the GameObject
          playerCollider.transform.localScale = newvScale;
@@ -441,7 +438,7 @@
          {
              transform.position += new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
              Vector3 newScale = playerCollider.transform.localScale;
-             newScale.x = 1;
+             newScale.x = 2.4f;
 
 // Assign the new scale to the GameObject
              playerCollider.transform.localScale = newScale;
@@ -452,7 +449,7 @@
          {
              transform.position -= new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
              Vector3 newScale = playerCollider.transform.localScale;
-             newScale.x = -1;
+             newScale.x = -2.4f;
 
 // Assign the new scale to the GameObject
              playerCollider.transform.localScale = newScale;
@@ -489,7 +486,7 @@
      {
          animate.Play("WallGrab");
          Vector3 newvScale = playerCollider.transform.localScale;
-         newvScale.y = 1f;
+         newvScale.y = 2.4f;
 
 // Assign the new scale to the GameObject
          playerCollider.transform.localScale = newvScale;
@@ -503,7 +500,7 @@
          {
              transform.position += new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
              Vector3 newScale = playerCollider.transform.localScale;
-             newScale.x = 1;
+             newScale.x = 2.4f;
 
 // Assign the new scale to the GameObject
              playerCollider.transform.localScale = newScale;
@@ -513,7 +510,7 @@
          {
              transform.position -= new Vector3(Sspeed * Time.deltaTime, 0f, 0f);
              Vector3 newScale = playerCollider.transform.localScale;
-             newScale.x = -1;
+             newScale.x = -2.4f;
 
 // Assign the new scale to the GameObject
              playerCollider.transform.localScale = newScale;
