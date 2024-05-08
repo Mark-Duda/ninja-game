@@ -368,6 +368,7 @@
 "Assets/Scripts/Bob.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/coincollect.cs"
+"Assets/Scripts/Enemy.cs"
 "Assets/Scripts/HUD.cs"
 "Assets/Scripts/ladder.cs"
 "Assets/Scripts/LevelLoader.cs"

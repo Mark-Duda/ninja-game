@@ -47,6 +47,11 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/WallGrab.cs" />
     <Compile Include="Assets/Scripts/ladder.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets/Scripts/Enemy.cs" />
+    <Compile Include="Assets/Scripts/Box.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets/Scripts/LevelLoader.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Scripts/Bob.cs" />
@@ -792,11 +797,11 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
