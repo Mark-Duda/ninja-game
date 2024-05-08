@@ -36,9 +36,8 @@ public class HUD : MonoBehaviour
 
     void Death()
     {
-        timer = 0;
-        levelloader.LoadMap();
-        //reload scenez
+        timer = 180;
+        levelloader.LoadMap(); 
     }
     
 }

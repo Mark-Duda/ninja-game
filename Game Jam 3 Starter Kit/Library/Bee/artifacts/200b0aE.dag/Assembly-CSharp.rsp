@@ -366,6 +366,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Bob.cs"
+"Assets/Scripts/Box.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/coincollect.cs"
 "Assets/Scripts/Enemy.cs"
