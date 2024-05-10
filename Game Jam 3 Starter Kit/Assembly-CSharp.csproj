@@ -70,11 +70,13 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/ArtWork/Animation/Warrior/License.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/ArtWork/Animation/Warrior/Contact.txt" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
@@ -792,20 +794,13 @@
       <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-<<<<<<< Updated upstream
-      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-=======
       <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Editor">
       <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>/Users/mduda5642/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>/Users/jkern8213/Documents/GitHub/ninja-game/Game Jam 3 Starter Kit/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>

@@ -15,7 +15,7 @@ public class CameraController : MonoBehaviour
     {
         StartCoroutine(delay());
         player = GameObject.FindWithTag("Player");
-        offset3D = new Vector3(offset.x, offset.y, -10f);
+        offset3D = new Vector3(offset.x, offset.y, 10f);
     }
 
     IEnumerator delay()
