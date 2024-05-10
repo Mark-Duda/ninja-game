@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3a27147f944790916176e2172ad506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   lastWriteTicks: -8584862448612020926
   manifestJsonLastWriteTicks: -8584865885976563045
+=======
+<<<<<<< HEAD
+  lastWriteTicks: -8584862448947090531
+  manifestJsonLastWriteTicks: -8584865882416420070
+=======
+  lastWriteTicks: -8584862448612020926
+  manifestJsonLastWriteTicks: -8584865885976563045
+>>>>>>> 2e0235c156e88989a68b3eebccea3ee0b626ae94
+>>>>>>> Stashed changes

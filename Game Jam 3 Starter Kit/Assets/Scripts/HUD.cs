@@ -34,7 +34,7 @@ public class HUD : MonoBehaviour
         }
     }
 
-    void Death()
+    public void Death()
     {
         timer = 180;
         levelloader.LoadMap(); 

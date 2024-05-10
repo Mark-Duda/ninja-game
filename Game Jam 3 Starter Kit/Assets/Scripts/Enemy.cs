@@ -27,20 +27,20 @@ public class Enemy : MonoBehaviour
         if (!facingRight)
         {
             groundCheck = new Vector2(collider.bounds.min.x, collider.bounds.min.y);   
-            isGrounded = Physics2D.Raycast(groundCheck, Vector2.down, groundCheckDistance );
+            isGrounded = Physics2D.Raycast(groundCheck, Vector2.down, groundCheckDistance,~LayerMask.NameToLayer("Player") );
             Debug.DrawLine(groundCheck,groundCheck + Vector2.down*groundCheckDistance ,Color.red);
            wallCheck = new Vector2(collider.bounds.min.x-.2f, collider.bounds.center.y);
-            isBlocked = Physics2D.Raycast(wallCheck, Vector2.right, wallCheckDistance);
+            isBlocked = Physics2D.Raycast(wallCheck, Vector2.right, wallCheckDistance,~LayerMask.NameToLayer("Player"));
             Debug.DrawLine(wallCheck, wallCheck + Vector2.right*wallCheckDistance,Color.red, wallCheckDistance);
         }
         else
         {
           
             groundCheck = new Vector2(collider.bounds.max.x, collider.bounds.min.y);   
-            isGrounded = Physics2D.Raycast(groundCheck, Vector2.down, groundCheckDistance );
+            isGrounded = Physics2D.Raycast(groundCheck, Vector2.down, groundCheckDistance,~LayerMask.NameToLayer("Player"));
             Debug.DrawLine(groundCheck,groundCheck + Vector2.down*groundCheckDistance ,Color.red);
             wallCheck = new Vector2(collider.bounds.max.x+.2f, collider.bounds.center.y);
-            isBlocked = Physics2D.Raycast(wallCheck, Vector2.left, wallCheckDistance);
+            isBlocked = Physics2D.Raycast(wallCheck, Vector2.left, wallCheckDistance,~LayerMask.NameToLayer("Player"));
            Debug.DrawLine(wallCheck, wallCheck + Vector2.left*wallCheckDistance,Color.red, wallCheckDistance);
         }
         // If there is no ground or there is a wall in front, turn around

@@ -7,8 +7,10 @@ public class ColorToPrefab {
 	public GameObject prefab;
 }
 
-public class LevelLoader : MonoBehaviour {
+public class LevelLoader : MonoBehaviour
+{
 
+	public HUD hud;
 	public string levelFileName;
 
 	//public Texture2D levelMap;
@@ -17,7 +19,9 @@ public class LevelLoader : MonoBehaviour {
 
 	public int levelnumber;
 	// Use this for initialization
-	void Awake () {
+	void Awake ()
+	{
+		hud = GameObject.FindObjectOfType<HUD>();
 		LoadMap();
 	}
 
@@ -39,6 +43,7 @@ public class LevelLoader : MonoBehaviour {
 	public void LoadMap() {
 		EmptyMap();
 		levelFileName = "level-" + levelnumber + ".png";
+		hud.timer = 180;
 
 		// Read the image data from the file in StreamingAssets
 		string filePath = Application.dataPath + "/StreamingAssets/" + levelFileName;
